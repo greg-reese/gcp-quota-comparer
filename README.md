@@ -6,9 +6,11 @@ This tool is used to compare similarly named projects in (Google Cloud Platform)
 
 ### Manually
 
-`go install`
-`go build`
-`./gcp-quota-comparer --from="labels.environment=dev" --to="labels.environment=staging"`
+```sh
+go install
+go build
+./gcp-quota-comparer --from="labels.environment=dev" --to="labels.environment=staging"
+```
 
 ### VS Code
 
